@@ -1,5 +1,5 @@
 # study-selenium-php
-社外勉強会 https://www.wantedly.com/projects/328589 で使用するソースコードです
+社外勉強会 https://www.wantedly.com/projects/328589 で使用するソースコードです(当日までに commit します, coming soon!)
 
 ## PHP のバージョン
   - ^5.6 || ~7.0 (5.6.0 以上 6.0.0 未満, もしくは 7.0.0 以上 8.0.0 未満) であれば OK です, 動かせます
