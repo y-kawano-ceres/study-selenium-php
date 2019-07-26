@@ -6,8 +6,9 @@ use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverSelect;
 
-$host = 'http://localhost:14444/wd/hub';
-//$host = 'http://172.16.3.247:4444/wd/hub';
+// $host = 'http://localhost:14444/wd/hub';
+$port = null;
+$host = "http://172.16.3.247:{$port}/wd/hub";
 
 $driver = RemoteWebDriver::create($host, DesiredCapabilities::chrome());
 
