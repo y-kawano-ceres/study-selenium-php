@@ -5,8 +5,7 @@ use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
 
-// $host = 'http://localhost:14444/wd/hub';
-$port = null;
+$port = null; // 個別にお知らせした Selenium Server のポート番号に書き換えてくださいませ
 $host = "http://192.168.0.19:{$port}/wd/hub";
 
 $driver = RemoteWebDriver::create($host, DesiredCapabilities::chrome());
